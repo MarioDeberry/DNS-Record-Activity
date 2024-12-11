@@ -31,7 +31,7 @@ In this tutorial, we create and observe (A) and CNAME records.
 <p>
   <img src="https://github.com/chrisrraP/azure-network-protocols/blob/main/Ping%20to%20Host%20Success.png" height="80%" width="80%" alt="Ping Host Success"/>
 </p>
-Create a virtual server and one client with Microsoft Azure. Reference [Configuring Active Directory](https://github.com/chrisrraP/configure-ad) to learn how to create virtual machines.  
+Create a virtual server and one client with Microsoft Azure. Reference [Configuring Active Directory](https://github.com/MarioDeberry/Configuring-Active-Directory-within-Azure-VMs) to learn how to create virtual machines.  
 Log into the client and ping a record that has not yet been created. Using the domain server, create an **A-record** in the DNS Manager.  
 Pinging the record name again from the client VM will show it now exists in the DNS cache.
 
